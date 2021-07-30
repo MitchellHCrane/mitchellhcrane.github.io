@@ -82,8 +82,7 @@ li {
 }
 
 .intro .links {
-  text-align: end;
-  padding-right: 16px;
+  text-align: center;
 }
 
 .intro a {
@@ -152,6 +151,13 @@ li {
 /* For Desktop*/
 
 @media screen and (min-width: 768px) {
+  nav {
+    max-width: 100%;
+  }
+  .intro .links {
+    text-align: end;
+    max-width: 100%;
+  }
   .about-content {
     flex-direction: row;
   }

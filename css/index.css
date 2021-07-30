@@ -38,6 +38,7 @@ li {
   );
   font-size: 14px;
   margin: 5px;
+  text-decoration: none;
 }
 
 .mainButton:hover {

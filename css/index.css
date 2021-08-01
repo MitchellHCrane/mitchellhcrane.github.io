@@ -177,17 +177,36 @@ li {
 
 /* Skills */
 .skills {
-  background-color: #000000;
-  color: #e0e1dd;
+  background-color: #da2c38;
+  color: #000;
 }
 
-.skills .container {
-  justify-content: center;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
 }
-
-.letter {
+.grid > div {
+  /* background:  */
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+  /* justify-self: center; */
   text-align: center;
-  padding: 8px;
+}
+
+.grid > div::before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+.grid > div::before,
+.grid > div > img {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.grid > div > img {
+  width: 70%;
+  object-fit: contain;
 }
 
 /* End Skills */

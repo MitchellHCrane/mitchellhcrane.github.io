@@ -17,7 +17,7 @@ li {
 .mainButton {
   background-size: 220%;
   box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.75);
-  color: #da2c38;
+  color: #000;
   background-color: transparent;
   background-position: 100%;
   border: 3px solid #da2c38;
@@ -101,6 +101,9 @@ li {
   display: flex;
   justify-content: center;
   padding-top: 48px;
+}
+.h2Container .heroBtn a {
+  color: white;
 }
 
 .h2Container .mainButton {
@@ -188,6 +191,9 @@ li {
   }
   .intro .links {
     padding-right: 32px;
+  }
+  .heroH2 {
+    padding-top: 30%
   }
 }
 
@@ -290,7 +296,6 @@ li {
   display: flex;
   flex-direction: column;
   background-color: #000000;
-  height: 25%;
 }
 
 .footer h2 {
@@ -303,6 +308,7 @@ li {
 
 .footer .links {
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .footer a,

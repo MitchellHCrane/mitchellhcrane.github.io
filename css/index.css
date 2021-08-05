@@ -82,6 +82,13 @@ li {
   background-size: cover;
   height: 100%;
 }
+.intro .mCraneLogo {
+ text-align: center;
+ padding-bottom: 32px;
+}
+.mCraneLogo img {
+max-width: 16%;
+}
 
 .intro .links {
   text-align: center;
@@ -181,11 +188,29 @@ li {
     margin-top: 0;
   }
   .intro .links {
-    padding-right: 32px;
+    padding-right: 0px;
   }
   .heroH2 {
     padding-top: 30%;
   }
+  .logoLinksDiv {
+    display: inline;
+  }
+  .intro .links {
+    float: right;
+    padding-right: 32px;
+  }
+  .intro .mCraneLogo {
+    padding-bottom: 0px;
+    text-align: left;
+  }
+  .mCraneLogo {
+    float: left;
+  }
+  .mCraneLogo img {
+    max-width: 25%;
+  }
+
 }
 
 /* End About Me */

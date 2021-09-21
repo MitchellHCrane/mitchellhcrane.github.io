@@ -230,12 +230,15 @@ max-width: 16%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 0.1rem;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 .grid > div {
   display: grid;
   align-items: center;
   justify-self: center;
   text-align: center;
+  /* margin: 0 auto; */
 }
 
 .grid > div::before {

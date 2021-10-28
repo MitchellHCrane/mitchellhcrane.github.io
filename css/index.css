@@ -73,8 +73,8 @@ li {
 
 /* Nav/Intro */
 
+
 .intro {
-  display: flex;
   background-image: linear-gradient(to bottom, #000, transparent),
     url(../images/heroImg.jpg);
   background-position: center;
@@ -209,6 +209,7 @@ max-width: 16%;
   }
   .mCraneLogo img {
     max-width: 25%;
+    margin-left: 1.5rem;
   }
 
 }
@@ -228,7 +229,7 @@ max-width: 16%;
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 0.1rem;
   margin-left: 32px;
   margin-right: 32px;

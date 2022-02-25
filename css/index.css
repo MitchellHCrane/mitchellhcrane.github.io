@@ -40,8 +40,12 @@ li {
   text-decoration: none;
 }
 
+.imageDiv {
+  text-align: center;
+}
+
 .profileImg {
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .mainButton:hover {
@@ -64,7 +68,7 @@ li {
 }
 
 .heading {
-  font-size: 50px;
+  font-size: 48px;
   padding-bottom: 32px;
   text-align: center;
   padding-top: 48px;
@@ -166,6 +170,7 @@ li {
 }
 
 .aboutMeContainer p {
+  padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -177,8 +182,6 @@ li {
 
 .aboutMeContainer .container img {
   max-width: 100%;
-  aspect-ratio: 4/3;
-  margin-bottom: 24px;
 }
 
 
@@ -197,16 +200,14 @@ li {
     flex-direction: row;
   }
   .about-text-container {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
   .profileImg {
-    flex-basis: 40%
+    /* flex-basis: 40% */
   }
   .aboutMeContainer img {
     margin-top: 0;
-    max-width: 100%;
   }
   .aboutMeP{
     padding-left: 20px;

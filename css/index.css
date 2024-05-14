@@ -46,6 +46,7 @@ li {
   justify-content: center;
   text-align: center;
   max-width: 320px;
+  margin: auto;
 }
 
 .profileImg {

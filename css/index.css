@@ -46,6 +46,7 @@ li {
 
 .profileImg {
   object-fit: cover;
+  max-width: 320px;
 }
 
 .mainButton:hover {
@@ -202,9 +203,6 @@ li {
   .about-text-container {
     align-items: center;
     justify-content: center;
-  }
-  .profileImg {
-    /* flex-basis: 40% */
   }
   .aboutMeContainer img {
     margin-top: 0;
